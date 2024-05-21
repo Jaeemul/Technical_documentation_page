@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>technical documentation page</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <nav id="navbar">
+        <header id="title">
+          <h1>Java Documentation</h1>
+        </header>
+        <ul>
+          <li><a class="nav-link" href="#Intro">Intro</a></li>
+          <li><a class="nav-link" href="#Syntax">Syntax</a></li>
+          <li><a class="nav-link" href="#Comments">Comments</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li><a class="nav-link" href="#Data_types">Data types</a></li>
+          <li><a class="nav-link" href="#Operators">Operators</a></li>
+        </ul>
+      </nav>
+    <main id="main-doc">
+      <div class="main">
+        <section id="Intro" class="main-section">
+        <header>
+          <h2>Intro</h2>
+        </header>
+        <p>Java is a popular programming language, created in 1995.</p>
+        <p>It is owned by Oracle, and more than 3 billion devices run Java.</p>
+        <p>It is used for:</p>
+        <ul>
+          <li>Mobile applications (specially Android apps)</li>
+          <li>Desktop applications</li>
+          <li>Web applications</li>
+          <li>Games</li>
+          <li>And much, much more!</li>
+        </ul>
+      </section>
+      
+      <section id="Syntax" class="main-section">
+        <header>
+          <h2>Syntax</h2>
+        </header>
+        <p> Java is case sensitive, which means identifier Hello and hello would have different meaning in Java.</p>
+        <p> For all class names the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case.</p>
+        <p>Java program processing starts from the main() method which is a mandatory part of every Java program.</p>
+        <code>public class MyFirstJavaProgram {
+public static void main(String []args) {
+      System.out.println("Hello World"); } }</code>
+      </section>
+      <section id="Comments" class="main-section">
+        <header>
+          <h2>Comments</h2>
+        </header>
+        <p>Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.</p>
+          <p>Single-line comments start with two forward slashes (//).</p>
+          <p>Any text between // and the end of the line is ignored by Java (will not be executed).</p>
+          <p>This example uses a single-line comment before a line of code:</p>
+          <code>// This is a comment System.out.println("Hello World");
+</code>
+        <p></p>
+      </section>
+      <section id="Variables" class="main-section">
+        <header>
+          <h2>Variables</h2>
+        </header>        
+        <p>In Java, there are different types of variables, for example:</p>
+        <ul>
+          <li>String - stores text, such as "Hello". String values are surrounded by double quotes</li>
+          <li>int - stores integers (whole numbers), without decimals, such as 123 or -123</li>
+          <li>float - stores floating point numbers, with decimals, such as 19.99 or -19.99</li>
+          <li>char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</li>
+          <li>boolean - stores values with two states: true or false</li>
+        </ul>
+        <p>To create a variable that should store text, look at the following example:</p>
+        <code>String name = "John";</code>
+      </section>
+      <section id="Data_types" class="main-section">
+        <header>
+          <h2>Data types</h2>
+        </header>
+        <p>Java data types are used to define the type of data for the different types of variables, constants, method parameters, returns type, etc. The variables are nothing but reserved memory locations to store some values. This means that when you create a variable you reserve some space in the memory to store some data. The data type tells the compiler about the type of data to be stored and the required memory.</p>
+        <p> Example of an integer data type: </p>
+        <code>int myNum = 5;</code>
+      </section>
+      <section id="Operators" class="main-section">
+        <header>
+          <h2>Operators</h2>
+        </header>
+        <p>Operators are used to perform operations on variables and values.</p>
+        <p>In the example below, we use the '+' operator to add together two values:</p>
+        <code>int x = 100 + 50;</code>
+        <p>Java divides the operators into the following groups:</p>
+        <ul>
+          <li>Arithmetic operators</li>
+          <li>Assignment operators</li>
+          <li>Comparison operators</li>
+          <li>Logical operators</li>
+          <li>Bitwise operators</li>
+        </ul>
+      </section>
+      </div>
+    </main>
+  </body>
+</html>
